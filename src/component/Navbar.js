@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
       <Container>
         <div className="nav-area">
-         <img alt="" width={1300} src="https://drive.google.com/file/d/1wqx51v1iI-x5dOFp4862dLXrRf41XLe1/view?usp=drive_link"/> 
+         <img width={1300} src="https://drive.google.com/file/d/1wqx51v1iI-x5dOFp4862dLXrRf41XLe1/view?usp=drive_link"/> 
         </div>
         <div className="nav-area">
             <Link className="nav-menu" to={'/'}> 1. 상품 소개 </Link>
