@@ -21,7 +21,7 @@ const ProductIntroduce = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img alt="" className="Carousel-detail" width={800} src="https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MTFfNjMg/MDAxNzE4MDcxMjc1NjMx.nTGq8tmi2qi6XfFVFlluZUHLyYMj_JKtoVHMdhGTHvQg.b9Y5kDTYQxjrX8ZmqAQKCqTxMTQQJ6H43p_rowGNdqMg.JPEG/1000063718.jpg?type=w1600" />
+              <img alt="" className="Carousel-detail" width={800} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkvq9VG5NAIM0hSQGmlBbi52VCSRv0c4AJzpDaxnlParQGf-9Be1fZdQd_oBV0A_h-ebA&usqp=CAU" />
               <Carousel.Caption>
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
