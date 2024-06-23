@@ -10,7 +10,7 @@ const ProductCard = ({item}) => {
 
   return (
     <div className="card" onClick={showDetail}>
-      <img height={300} src={item?.img}/>
+      <img alt="" height={300} src={item?.img}/>
       <div>태클박스</div>
       <div>39,000원</div>
     </div>
