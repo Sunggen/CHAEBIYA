@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
       <Container>
         <div className="nav-area">
-         <img alt="" width={1300} src="https://cafeptthumb-phinf.pstatic.net/MjAyNDA2MDZfNyAg/MDAxNzE3NjUyOTI2NjQw.5Z0LXjCm3e0lfsbiIwdrtdhXDVyNCnakUauboXgaKYcg.c3FT5pKQ-Ag-BsYWUx3rpxRuauVeufUiIIi4ZulQ770g.JPEG/%ED%83%80%EC%9D%B4%ED%8B%80.jpg"/> 
+         <img alt="" width={1300} src="https://drive.google.com/file/d/1wqx51v1iI-x5dOFp4862dLXrRf41XLe1/view?usp=drive_link"/> 
         </div>
         <div className="nav-area">
             <Link className="nav-menu" to={'/'}> 1. 상품 소개 </Link>
