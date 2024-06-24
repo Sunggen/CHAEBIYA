@@ -1,6 +1,7 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom"
 import ProductIntroduce from "./page/ProductIntroduce"
+import ProductPart from "./page/ProductPart"
 import ProductAll from "./page/ProductAll"
 import ProductDetail from "./page/ProductDetail"
 import RequestMake from "./page/RequestMake"
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Routes>
          <Route path="/" element={<ProductIntroduce/>}/>
+         <Route path="/Part" element={<ProductPart/>}/>
          <Route path="/Product" element={<ProductAll/>}/>
          <Route path="/Product/:id" element={<ProductDetail/>}/>
          <Route path="/Request" element={<RequestMake/>}/>
