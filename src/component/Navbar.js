@@ -19,11 +19,11 @@ const Navbar = () => {
     <div>
       <Container>
         <div className="nav-area">
-         <img src={process.env.PUBLIC_URL + 'img/chaebiya.jpg'}/>
+         <img className="nav-img" src={process.env.PUBLIC_URL + 'img/chaebiya.jpg'}/>
         </div>
         <div className="nav-area">
             <Link className="nav-menu" to={'/'}> 1. 상품 소개 </Link>
-            <Link className="nav-menu" to={'/Product'}> 2. 채비야 부품 </Link>
+            <Link className="nav-menu" to={'/Part'}> 2. 채비야 부품 </Link>
             <Link className="nav-menu" to={'/Product'}> 3. 채비야 완성품 </Link>
             <Link className="nav-menu" to={'/Request'}> 4. 조합 요청 </Link>
             <Link className="nav-menu" to={'/Buy'}> 5. 구매 요청 </Link>

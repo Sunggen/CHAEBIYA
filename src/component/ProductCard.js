@@ -1,20 +1,19 @@
 import React from 'react'
-import {useNavigate } from "react-router-dom"
 
-const ProductCard = ({item}) => {
-  const navigate = useNavigate()
-
-  const showDetail = () =>{
-    navigate(`/Product/${item.id}`)
-  }
-
+const ProductCard = () => {
+  const assembleList = ['ass1','ass2','ass3'];
   return (
-    <div className="card" onClick={showDetail}>
-      <img alt="태클박스 이미지" height={300} src={item?.img}/>
-      <div>태클박스</div>
-      <div>39,000원</div>
+    <span>
+      {assembleList.map((item)=>(
+      <div className="card">
+      <img alt="태클박스 이미지" height={300} src={process.env.PUBLIC_URL + `img/assemble/${item}.jpg`}/>
     </div>
+  ))}
+  </span>
   )
 }
 
 export default ProductCard
+
+
+
