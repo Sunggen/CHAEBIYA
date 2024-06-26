@@ -1,7 +1,9 @@
 import React from 'react'
+import {Container} from 'react-bootstrap'
 
 const WantBuy = () => {
   return (
+    <Container>
     <div className="not-open">
       <div className="buy-card">    
         <h2>구매 문의</h2>
@@ -14,6 +16,7 @@ const WantBuy = () => {
         <div>연락처 : 010-9957-6111</div>
       </div>
     </div>
+    </Container>
   )
 }
 

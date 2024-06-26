@@ -5,7 +5,7 @@ import {Container, Row, Col} from "react-bootstrap"
 
 const ProductAll = () => {
 
-  const assembleList = ['ass1','ass2','ass3'];
+  const assembleList = ['ass1','ass2','ass3','ass4','ass5','ass6'];
 
     // const [productList, setProductList] = useState([]);
     // const getProducts = async () =>{
@@ -24,7 +24,7 @@ const ProductAll = () => {
         <Container>
           <Row>
             {assembleList.map((item)=>(
-                <Col lg={3}>
+                <Col lg={2}>
                   <div className="card">
                   <img alt="태클박스 이미지" height={300} src={process.env.PUBLIC_URL + `img/assemble/${item}.jpg`}/>
                   </div>
